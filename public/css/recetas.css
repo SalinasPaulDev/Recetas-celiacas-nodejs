@@ -1,0 +1,64 @@
+@import url(../css/styles.css);
+
+*{margin:0;padding:0;box-sizing: border-box;}
+
+body{
+    background-color: var(--dark-light)
+}
+
+section{
+    width: 60%;
+    margin: 10px auto;
+    display:flex;
+    flex-direction:column;   
+    
+}
+.toggleCard{
+    display: none;
+}
+
+
+h1{    
+    text-align: center;
+    margin-bottom: 20px;   
+}
+h3{
+    text-align: center;
+    cursor:grab
+}
+
+
+
+img{    
+    align-self: center;
+    width: 80%;
+    height: 350px;
+    margin: 10px ;
+    padding: 10px; 
+    border-radius: 15px;
+}
+.receta p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+ol li{
+    text-align: justify;
+}
+#desayuno {
+    font-size: 1rem
+}
+
+h4{
+    text-decoration: underline rgb(84, 255, 32);
+}
+
+@media screen and (max-width: 600px){
+    section{
+        width: 90%;
+        margin: 10px auto;                 
+    }
+    img{    
+        height: 250px;        
+    }
+}
