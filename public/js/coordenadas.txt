@@ -29,7 +29,7 @@ let dieteticas = [
     address: "Viamonte 859, C1053 CABA", 
     phone: "+54 11-4322-9380" 
   },  
-  { name: "Dietéticas Tomy", 
+  { name: "Dietéticas Tomy",
     lat: -34.63071596048988,
     lng: -58.469109490719035, 
     address: "Av. Rivadavia 7390,CABA", 
